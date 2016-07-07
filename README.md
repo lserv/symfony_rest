@@ -14,7 +14,8 @@ http util see [HTTPie library](https://github.com/jakubroztocil/httpie)
 
 #### Get access token:
 http POST http://127.0.0.1:8000/oauth/v2/token grant_type=password client_id=1_3va1d8h5i2gw0csw0wgkscsswsgw08wkck04ko0g80kkgs8gss client_secret=5cgmv2jtyxog0sogwoss4o44s0wss8skkwksg8kcw044wggwkw username=admin password=admin
-    where client_id and client_secret see in oauth2_clients table
+
+where client_id and client_secret see in oauth2_clients table
 
 #### Users(private only admin)
 - http POST http://127.0.0.1:8000/users/create username="Test User1" email=test1@mail.ru password=qwe "Authorization:Bearer MzNiOTgxNjQ4YTIzMDczMjZmYjUzNWU5NWIzNTk4N2I4ODIxYzFiZTY1Njg5ZTFhMWQyMTkxNDM4ZTc1MmQ5Zg"
