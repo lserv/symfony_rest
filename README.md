@@ -1,6 +1,12 @@
 Symfony RESTful API
 ============
 
+### The following bundles are used :
+- https://github.com/FriendsOfSymfony/FOSRestBundle
+- https://github.com/FriendsOfSymfony/FOSUserBundle
+- https://github.com/FriendsOfSymfony/FOSOAuthServerBundle
+- https://github.com/nelmio/alice
+
 ### Load fixtures:
 - php app/console doctrine:schema:update --force
 - php app/console doctrine:fixtures:load
