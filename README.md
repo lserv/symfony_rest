@@ -1,4 +1,4 @@
-Symfony RESTful API
+Symfony REST API
 ============
 
 ### The following bundles are used :
